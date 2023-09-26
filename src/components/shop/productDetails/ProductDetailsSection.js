@@ -9,8 +9,7 @@ import { getSingleProduct } from "./FetchApi";
 import { cartListProduct } from "../partials/FetchApi";
 
 import { isWishReq, unWishReq, isWish } from "../home/Mixins";
-import { updateQuantity, slideImage, addToCart, cartList } from "./Mixins";
-import { totalCost } from "../partials/Mixins";
+import { updateQuantity, slideImage, cartList } from "./Mixins";
 
 const apiURL = process.env.REACT_APP_API_URL;
 
