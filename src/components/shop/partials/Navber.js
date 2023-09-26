@@ -22,11 +22,6 @@ const Navber = (props) => {
       ? dispatch({ type: "loginSignupModalToggle", payload: false })
       : dispatch({ type: "loginSignupModalToggle", payload: true });
 
-  const cartModalOpen = () =>
-    data.cartModal
-      ? dispatch({ type: "cartModalToggle", payload: false })
-      : dispatch({ type: "cartModalToggle", payload: true });
-
   return (
     <Fragment>
       {/* Navber Section */}
